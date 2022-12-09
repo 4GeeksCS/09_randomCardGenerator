@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Card Generator</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="" />
+  </head>
+<body>
+    <div body="container-fluid text-center">
+      <div class="card">
+        <div id="top-icon" class="random"></div>
+        <div class="number" id="number"></div>
+        <div id="bottom-icon" class="random"></div>
+      </div>
+      <div id="timer">
+        <progress value="0" max="10" id="progressBar"></progress>
+      </div>
+      <div id="cardChanger">
+        <button onclick="button()">Generate New Card</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
